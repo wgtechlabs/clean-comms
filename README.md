@@ -26,7 +26,14 @@ You need an agent host that loads a skill from a folder containing `SKILL.md`. T
 1. Copy `skills/clean-comms/` into the skills directory your host already uses.
 2. Start a new session so the host loads the skill. Its name is `clean-comms`.
 
-\n### Codex\n\nCodex discovers project skills from `.agents/skills/`. Copy `skills/clean-comms/` to `.agents/skills/clean-comms/` in your project, then start a new Codex session. The included `SKILL.md` uses the required `name` and `description` metadata. See [OpenAI's Codex skill guidance](https://developers.openai.com/blog/skills-agents-sdk).\n\nAsk a short status question. The first useful result is a one- or two-line answer, with the result in the first line.
+
+### Codex
+
+Codex discovers project skills from `.agents/skills/`. Copy `skills/clean-comms/` to `.agents/skills/clean-comms/` in your project, then start a new Codex session. The included `SKILL.md` uses the required `name` and `description` metadata. See [OpenAI's Codex skill guidance](https://developers.openai.com/blog/skills-agents-sdk).
+
+
+
+Ask a short status question. The first useful result is a one- or two-line answer, with the result in the first line.
 
 ## 📖 Usage
 
