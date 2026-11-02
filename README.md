@@ -26,6 +26,10 @@ You need an agent host that loads a skill from a folder containing `SKILL.md`. T
 1. Copy `skills/clean-comms/` into the skills directory your host already uses.
 2. Start a new session so the host loads the skill. Its name is `clean-comms`.
 
+### Codex
+
+Codex discovers project skills from `.agents/skills/`. Copy `skills/clean-comms/` to `.agents/skills/clean-comms/` in your project, then start a new Codex session. The included `SKILL.md` uses the required `name` and `description` metadata. See [OpenAI's Codex skill guidance](https://developers.openai.com/blog/skills-agents-sdk).
+
 Ask a short status question. The first useful result is a one- or two-line answer, with the result in the first line.
 
 ## 📖 Usage
@@ -55,7 +59,7 @@ The agent does not restate your request. It leaves out logs, tool names, and sid
 - [clean-comms skill](skills/clean-comms/SKILL.md): the rules, limits, and good and bad examples.
 - [Repository instructions](AGENTS.md): how to change this repository without widening its scope.
 
-This repository does not include a plugin guide, changelog, or release workflow.
+GitHub Actions creates releases from `main` with [Release Build Flow Action](https://github.com/wgtechlabs/release-build-flow-action).
 
 ## 🛠️ Development
 
