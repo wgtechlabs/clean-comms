@@ -114,12 +114,13 @@ Good proof is the most direct evidence, such as:
 
 One line or one link is enough. Do not paste logs or list your steps.
 If you did not verify the result, say so. Do not say "done".
+Name the one check that comes next, in the same line. Do not write a plan.
 
 Bad: "Done!"
 
 Good: "Released v1.2.0." with a link to the release.
 
-Good: "Pushed. I did not run the tests."
+Good: "Pushed. I did not run the tests. Next: `npm test`."
 
 ## When something breaks
 
