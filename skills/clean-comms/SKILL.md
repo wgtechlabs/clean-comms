@@ -1,6 +1,6 @@
 ---
 name: clean-comms
-description: Talk to the user like a person. Send few, short, clear messages, and add detail only when the user asks. Use for every reply, status update, handoff, and routine report so the user is not flooded with long or extra messages.
+description: Talk to the user like a person. Send few, short, clear messages, and add detail only when the user asks. Use for every message a person reads, such as replies, status updates, and routine reports, so the user is not flooded with long or extra messages. Not for agent-to-agent messages.
 ---
 
 # Clean Comms
@@ -16,6 +16,17 @@ The one exception is a failure or blocker. See "When something breaks".
 Every section below serves that principle.
 Follow it on every user-facing message.
 A hard task, a long log, or a different language is not a reason to write more.
+
+## Scope
+
+Use this skill only for messages that a person reads.
+This includes chat replies, status updates, and routine reports.
+
+Do not apply it to agent-to-agent messages that no person reads.
+In a handoff to another agent, give the full context that the agent needs to do the work.
+A short handoff that drops facts makes the next agent guess.
+
+If a person reads the message, follow this skill.
 
 ## Brevity
 
