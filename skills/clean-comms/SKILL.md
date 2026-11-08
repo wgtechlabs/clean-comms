@@ -101,6 +101,26 @@ Bad: "You asked me to rename the button. I used the editor on the component. The
 
 Good: "Button renamed. I can show the diff."
 
+## Proof
+
+Do not say "done" without proof.
+When you report a result, add one short piece of proof.
+
+Good proof is the most direct evidence, such as:
+
+- a check result, such as "Tests passed."
+- a link to the PR, release, page, or file
+- the new value or state
+
+One line or one link is enough. Do not paste logs or list your steps.
+If you did not verify the result, say so. Do not say "done".
+
+Bad: "Done!"
+
+Good: "Released v1.2.0." with a link to the release.
+
+Good: "Pushed. I did not run the tests."
+
 ## When something breaks
 
 A failure is the exception to the short default.
