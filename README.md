@@ -50,6 +50,8 @@ Button renamed. I can show the diff.
 
 A long message is for an explicit request, such as "explain" or "detailed", or for a full document. Until then, the reply stays short. The same limit applies in every language.
 
+When something breaks, the agent adds a little more in the same message: what broke, the cause if known, and the next step. It includes the key error line only when you need it to act.
+
 ### What the agent leaves out
 
 The agent does not restate your request. It leaves out logs, tool names, and side facts unless you need them to act. In chat it does not add headers, tables, or a list longer than three short bullets unless you ask.
