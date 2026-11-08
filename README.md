@@ -9,6 +9,8 @@
 
 It is for anyone whose agent can load an Agent Skills folder. Talking to the agent should feel like chatting with a person. The agent sends few messages. It adds detail only when the user asks.
 
+The skill covers messages that a person reads. Agent-to-agent handoffs that no person reads are out of scope, so those can carry full context.
+
 [Skill rules](skills/clean-comms/SKILL.md) · [Repository instructions](AGENTS.md)
 
 ## ✨ Features
