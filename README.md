@@ -11,6 +11,8 @@ It is for anyone whose agent can load an Agent Skills folder. Talking to the age
 
 The skill covers messages that a person reads. Agent-to-agent handoffs that no person reads are out of scope, so those can carry full context.
 
+You can pair it with [Clean Vibes](https://github.com/wgtechlabs/clean-vibes) when you also want warmth and a small emoji set in chat with the person who runs the agent. Clean Vibes is optional. It does not change this skill. Clean Comms still uses no emoji.
+
 [Skill rules](skills/clean-comms/SKILL.md) · [Repository instructions](AGENTS.md)
 
 ## ✨ Features
@@ -64,6 +66,7 @@ The agent does not restate your request. It leaves out logs, tool names, and sid
 
 - [clean-comms skill](skills/clean-comms/SKILL.md): the rules, limits, and good and bad examples.
 - [Repository instructions](AGENTS.md): how to change this repository without widening its scope.
+- [Clean Vibes](https://github.com/wgtechlabs/clean-vibes): an optional pair for warmth and a small emoji set in that chat. Clean Comms stays free of emoji.
 
 GitHub Actions creates releases from `main` with [Release Build Flow Action](https://github.com/wgtechlabs/release-build-flow-action).
 
